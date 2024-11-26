@@ -6,24 +6,24 @@ body {
   min-height: 100vh;
   background-color: #f0f0f0;
   margin: 0;
-  font-size: 33.6px;
+  font-size: 29.8px;
 }
 
 .container {
   text-align: center;
-  padding: 48px;
+  padding: 43.2px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  max-width: 960px;
+  max-width: 864px;
   margin: 0 auto;
 }
 
 .redirect-button {
   display: block;
-  width: calc(100% - 96px);
-  padding: 30px 48px;
-  margin: 24px auto;
+  width: calc(100% - 86.4px);
+  padding: 27px 43.2px;
+  margin: 21.6px auto;
   background-color: #4CAF50;
   color: white;
   text-decoration: none;
@@ -31,23 +31,23 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-size: 1.92rem;
+  font-size: 1.728rem;
 }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 3.78rem;
 }
 
 /* Media query for smaller screens */
-@media (max-width: 720px) {
+@media (max-width: 648px) {
   body {
-    font-size: 28px;
+    font-size: 25.2px;
   }
   .redirect-button {
-    font-size: 1.6rem;
-    padding: 20px 30px;
+    font-size: 1.44rem;
+    padding: 18px 27px;
   }
   h1 {
-    font-size: 3.5rem;
+    font-size: 3.15rem;
   }
 }
